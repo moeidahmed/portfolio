@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
+  <style>@media (max-width: 1287px) {
+    #selling-points {
+      position: static;
+      margin: 100px;
+    }
+  }</style>
   <body class="not-italic" onload="userdata()">
-
 <!-- Header Part -->
     <div class="bg-sky-900 w-full h-64 mb-20 relative">
       <div id="image"></div>
@@ -80,7 +85,7 @@
       </div>
 
 <!-- Card -->
-    <div
+    <div id="selling-points"
       class="px-10 py-5 flex flex-col gap-1 w-96 border-green-800 border rounded-xl fixed bottom-12 right-10 bg-white">
       <p class="text-sm text-teal-600 uppercase font-semibold">MENTORSHIP PLAN</p>
       <span><h class="text-3xl"><b>$100</b></h><b>/month</b></span>
