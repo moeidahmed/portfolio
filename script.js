@@ -12,6 +12,7 @@ function userdata() {
       document.getElementById("active").innerText = reqdata.active;
       document.getElementById("respond").innerText = reqdata.respond;
       document.getElementById("about").innerText = reqdata.about;
+      document.getElementById("location").innerText = reqdata.location;
       document.getElementById("image").innerHTML = `<img 
       src="${reqdata.image}"
       class="w-60 h-60 border border-white border-4 rounded-full absolute -bottom-10 left-20"
