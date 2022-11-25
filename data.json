@@ -2,12 +2,50 @@
   "Info": {
     "image": "images.jpg",
     "name": "Moeid Ahmed",
-    "description": "Interne at Allied Group of Consultants",
+    "description": "Interne at Allied Group of Consultants.",
     "location": "Lahore, Pakistan",
     "views": "290 views",
     "active": "12 hours ago",
     "respond": "With in a 12 Hours",
-    "skills": ["Html", "Css", "Bootstrap", "JavaScript"],
-    "about": "Moeid loves to connect with learning enthusiasts and solve problems. He gains inspiration and insight through thought-provoking productive discussions. He's naturally an inquisitive lifetime learner and enjoys keeping up with current happenings in related technologies, He believes that mentoring is so deeply satisfying job/service that helps to fulfill her knowledge sharing desire and stay motivated to fuel his life long learning enthusiasm by learning/sharing along with mentees."
+    "skills": [
+      {
+        "name": "Html",
+        "more": "Flow Content, Sectioning Content,Heading Content,Interactive Content"
+      },
+      {
+        "name": "Css",
+        "more": "Inline CSS, Internal or Embedded CSS, External CSS"
+      },
+      {
+        "name": "Bootstrap",
+        "more": "Accordion, Alerts, Badges, Borders, Button Groups"
+      },
+      {
+        "name": "Taiwind",
+        "more": "ready-to-use dropdowns, logins, modals"
+      },
+      {
+        "name": "JavaScript",
+        "more": "Dom, Loops, Conditional"
+      }
+    ],
+    "about": "Seeking challenging role as a web developer where my proficiency in the application of computer operators will be fully consumed to help the organization reach its objectives with excellence and ease.",
+    "education": [
+      {
+        "degree": "BScs",
+        "organization": "Government Collage University Faisalabad",
+        "year": "2017-2021"
+      },
+      {
+        "degree": "FSc",
+        "organization": "Government Islamia Collage Railway Road",
+        "year": "2015-2017"
+      },
+      {
+        "degree": "Matric (Computer Science)",
+        "organization": "Government Arif Higher Secondary School",
+        "year": "2013-2015"
+      }
+    ]
   }
 }
