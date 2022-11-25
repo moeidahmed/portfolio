@@ -2,11 +2,8 @@
   "Info": {
     "image": "images.jpg",
     "name": "Moeid Ahmed",
-    "description": "Interne at Allied Group of Consultants.",
-    "location": "Lahore, Pakistan",
-    "views": "290 views",
-    "active": "12 hours ago",
-    "respond": "With in a 12 Hours",
+    "description": "Internship in Allied Consultant as a professional learning experience that offers me meaningful, practical work related to a my field of study or career interest. This gives me an opportunity for career exploration and development, and to learn new skills.",
+
     "skills": [
       {
         "name": "Html",
@@ -21,8 +18,8 @@
         "more": "Accordion, Alerts, Badges, Borders, Button Groups"
       },
       {
-        "name": "Taiwind",
-        "more": "ready-to-use dropdowns, logins, modals"
+        "name": "Tailwind",
+        "more": "Ready-to-use dropdowns, logins, modals"
       },
       {
         "name": "JavaScript",
@@ -32,12 +29,12 @@
     "about": "Seeking challenging role as a web developer where my proficiency in the application of computer operators will be fully consumed to help the organization reach its objectives with excellence and ease.",
     "education": [
       {
-        "degree": "BScs",
+        "degree": "BS Computer Science",
         "organization": "Government Collage University Faisalabad",
         "year": "2017-2021"
       },
       {
-        "degree": "FSc",
+        "degree": "FSc(Pre Engeenering)",
         "organization": "Government Islamia Collage Railway Road",
         "year": "2015-2017"
       },
