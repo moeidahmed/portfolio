@@ -7,27 +7,30 @@ function userdata() {
       var reqdata = data.Info;
       document.getElementById("name").innerText = reqdata.name;
       document.getElementById("description").innerText = reqdata.description;
-      document.getElementById("views").innerText = reqdata.views;
-      document.getElementById("active").innerText = reqdata.active;
-      document.getElementById("respond").innerText = reqdata.respond;
-      document.getElementById("location").innerText = reqdata.location;
       document.getElementById("about").innerText = reqdata.about;
       document.getElementById("image").innerHTML = `<img 
       src="${reqdata.image}"
       class="w-48 h-48  border border-white border-4 rounded-full absolute -bottom-10 left-20"
       />`;
+      let edu = reqdata.education;
+      for (let i = 0; i < edu.length; i++) {
+        const element = edu[i];
+        console.log(element);
+        let education = (document.getElementById(
+          "edu"
+        ).innerHTML += `<div><div><b>${element.degree}</b></div>
+        <div>${element.organization}</div>
+        <div >${element.year}</div></div><br>`);
+      }
       let skill = reqdata.skills;
       for (let i = 0; i < skill.length; i++) {
         let name = skill[i].name;
         let more = skill[i].more;
-        console.log(name);
-        console.log(more):
         document.getElementById(
           "skill"
         ).innerHTML += `<button onclick="moreInfo('${name}','${more}')"
-        class="bg-gray-600 hover:bg-teal-700 text-white  py-2 px-4 m-1 rounded-full "
+        class="bg-blue-700 hover:bg-blue-900 text-white  py-2 px-4 m-1 rounded-full "
         >${name}</button>`;
-        //image
       }
     }
   };
